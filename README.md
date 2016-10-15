@@ -12,9 +12,9 @@ This is instructions to get the SaintCon 2016 badge to work with the Arduino Ide
  
  
  
-#### Try uploading a sketch to the board, I have provided one
-#### If you recieve an error containing avr/pgmspace.h then continue following the instructions, otherwise have fun!
-### Fixing the error mentioned above
+#### Try uploading a sketch to the board, I have provided one ####
+#### If you recieve an error containing avr/pgmspace.h then continue following the instructions, otherwise have fun! ####
+### Fixing the error mentioned above ###
  1. Click http://download.savannah.gnu.org/releases/avr-libc/avr-libc-2.0.0.tar.bz2 which will download the avr libraries
  2. Once downloaded uncompress the file
  3. Copy the avr-libc-2.0.0/include/avr folder to the src/ folder for the LedControl library
@@ -32,4 +32,5 @@ This is instructions to get the SaintCon 2016 badge to work with the Arduino Ide
 This should replace the #include <avr/pgmspace.h> line
 ~~~
 
-    
+
+#### Have fun hacking! ####
