@@ -12,14 +12,16 @@ This is instructions to get the SaintCon 2016 badge to work with the Arduino Ide
     1. Click http://download.savannah.gnu.org/releases/avr-libc/avr-libc-2.0.0.tar.bz2 which will download the avr libraries
     2. Once downloaded uncompress the file
     3. Copy the avr-libc-2.0.0/include/avr folder to the src/ folder for the LedControl library
-        * If you have linux the directory for the src/ directroy is ~/Arduino/libraries/LedControl/src/
-        * Windows and Mac the directory will be in your documents folder under Arduino/libraries/LedControl/src/
+        - If you have linux the directory for the src/ directroy is ~/Arduino/libraries/LedControl/src/
+        - Windows and Mac the directory will be in your documents folder under Arduino/libraries/LedControl/src/
     4. Then in the src/ directory you just put the avr/ folder change the following lines to the LedControl.h file
-    **#if defined (ESP8266)**
-    **#include <pgmspace.h>**
-    **#else**
-    **#include <avr/pgmspace.h>**
-    **#endif**
-        This should replace the #include <avr/pgmspace.h> line
+    
+    #if defined (ESP8266)
+    #include <pgmspace.h>
+    #else
+    #include <avr/pgmspace.h>
+    #endif
+    
+    This should replace the #include <avr/pgmspace.h> line
 
     
