@@ -1,8 +1,8 @@
-#include "LedControl.h" //need the library
+#include <LedControl.h> //need the library
 LedControl lc = LedControl(13, 14, 15, 1); // lc is our object
-// pin 12 is connected to the MAX7219 pin 1
-// pin 11 is connected to the CLK pin 13
-// pin 10 is connected to LOAD pin 12
+// pin 13 (D7) is connected to the MAX7219 pin 1
+// pin 14 (D5) is connected to the CLK pin 13
+// pin 15 (D8) is connected to LOAD pin 12
 // 1 as we are only using 1 MAX7219
 void setup()
 {
