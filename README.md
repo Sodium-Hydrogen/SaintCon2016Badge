@@ -1,6 +1,6 @@
 # SaintCon2016Badge #
 This is instructions to get the SaintCon 2016 badge to work with the Arduino IDE
-## Adding the ESP8266 chip to your arduino IDE ##
+## Adding the ESP8266 chip to your Arduino IDE ##
  1. copy http://arduino.esp8266.com/stable/package_esp8266com_index.json into file -> preferences -> additional boards manager URLs
  2. Go to tools -> boards: -> board manager, find the esp8266 board, click on it and click install
  
